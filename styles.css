@@ -554,7 +554,9 @@ align-items: left;
    border: 2px solid rgb(226, 232, 240);
    border-top: 10px solid red;
    border-radius: 8px;
+   padding: 10px;
    padding-bottom: 20px;
+
 }
 .nio {
     display: flex;
@@ -565,6 +567,7 @@ align-items: left;
     font-size: 50px;
     border-top: 10px solid royalblue;
     border-radius: 8px;
+    padding: 10px;
     padding-bottom: 20px;
     
     
@@ -578,6 +581,7 @@ align-items: left;
     border: 2px solid rgb(226, 232, 240);
     border-top: 10px solid pink;
     border-radius: 8px;
+    padding: 10px;
     padding-bottom: 20px;
     
 }
@@ -957,6 +961,7 @@ align-items: center;
     max-width: 50px;
 }
 
+
  
    
     
@@ -984,9 +989,19 @@ align-items: center;
     .dre {
         width: 100%;
     }
-    .lop {
-        margin: 0 auto;
+    .rw {
+        width: 2000%;
+        
+margin: 0 auto;
+        
+    justify-content: space-between;
+        
     }
+    .huuuu {
+      margin: 0 auto;
+    }
+        
+
     .btn__menu {
         display: flex;
         justify-content: space-between;
@@ -994,13 +1009,7 @@ align-items: center;
 
     }
    
-    .mth {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-        margin: 80px auto;
-        
-    }
+ 
    
     nav {
 
@@ -1025,7 +1034,13 @@ align-items: center;
     }
     .container {
        width: 100%;
+       display: flex;
+       text-align: center;
     }
+   .team {
+    display: flex;
+    text-align: center;
+   }
     .ret {
         width: 100%;
         flex-direction: column;
@@ -1033,6 +1048,23 @@ align-items: center;
         align-items: center;
         display: flex;
     }
+    .pro__text {
+        display: flex;
+        text-align: center;
+    }
+    .lop {
+        width: 70%;
+    }
+    .pro__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    
+
+   
     .text {
         display: flex;
         flex-direction: column;
@@ -1234,7 +1266,15 @@ align-items: center;
         width: 100%;
         padding-top: 24px;
     }
-  
+  .bio {
+    width: 70%;
+  }
+  .nio {
+    width: 70%;
+  }
+  .mio {
+    width: 70%;
+  }
 
     
     .links { 
@@ -1243,14 +1283,7 @@ align-items: center;
         justify-content: space-between;
        
     }
-    .rw {
-        display: flex;
-        max-width: 728px;
-        justify-content: space-between;
-        width:100%;
-        margin: 0 auto;  
-        
-    }
+  
 
 }
 @media (max-width:728px) {
@@ -1261,6 +1294,7 @@ align-items: center;
     padding-right: 500px;
   
  }
+ 
  .kmn {
     margin: 0 auto;
  }
@@ -1310,9 +1344,7 @@ justify-content: space-between;
     margin: 0 auto;
     
 }
-.footer__link {
-   
-}
+
 }
   
    
